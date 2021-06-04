@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4c292b1-93c1-4a67-8b9e-cdce55ce9274" name="Default Changelist" comment="" />
+    <list default="true" id="a4c292b1-93c1-4a67-8b9e-cdce55ce9274" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/Logistic_Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RF_GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random_Forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random_Forest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +33,43 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Random_Forest">
+  <component name="RunManager" selected="Python.RF_GUI">
+    <configuration name="Logistic_Regression" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logistic_Regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RF_GUI" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RF_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Random_Forest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +112,8 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Random_Forest" />
+      <item itemvalue="Python.RF_GUI" />
+      <item itemvalue="Python.Logistic_Regression" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,13 +125,25 @@
       <option name="presentableId" value="Default" />
       <updated>1622816371845</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1622817042137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622817042137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="62" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622816594455">
+    <state x="104" y="52" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622817462478">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1622816594455" />
+    <state x="104" y="52" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1622817462478" />
     <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1622816597223">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -109,6 +164,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1622816542626" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1622817047383">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1622817047383" />
     <state x="462" y="301" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1622817029502">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

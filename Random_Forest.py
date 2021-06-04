@@ -30,3 +30,6 @@ sn.heatmap(confusion_matrix, annot=True)
 
 print('Accuracy: ',metrics.accuracy_score(y_test, y_pred))
 plt.show()
+
+prediction = clf.predict([[730,3.7,4,27]])
+print ('Predicted Result: ', prediction)
